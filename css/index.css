@@ -1,0 +1,92 @@
+#blocoTuning{
+    margin-left: 10%; 
+    float: left; 
+    width: 30%; 
+}
+
+#blocoEstetica{
+    margin-left: 20%; 
+    float: left; 
+    width: 30%; 
+}
+
+#logoSpace{
+    width: 3.5%; 
+    border-radius: 6px; 
+}
+
+#policia{
+    margin-left: 10%;
+}
+
+@media(max-width: 1190px){
+    #blocoTuning{
+        margin-left: 8%;
+        width: 40%;
+    }
+    #blocoEstetica{
+        margin-left: 3%;
+        width: 40%;
+    }
+}
+
+@media(max-width: 890px){
+    #blocoTuning{
+        margin-left: 1%;
+        width: 49%;
+    }
+    #blocoEstetica{
+        margin-left: 1%;
+        width: 49%;
+    } 
+}
+
+@media(max-width: 770px){
+    #logoSpace{
+        display: none;
+    }
+    
+}
+
+@media(max-width: 720px){
+    #blocoTuning{
+        float: none;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    #blocoEstetica{
+        float: none;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto; 
+    } 
+}
+
+@media(max-width: 550px){
+    #blocoTuning{
+        width: 90%;
+    }
+    #blocoEstetica{
+        width: 90%;
+    } 
+    
+}
+
+@media(max-width: 400px){
+    #blocoTuning{
+        width: 100%;
+    }
+    #blocoEstetica{
+        width: 100%;
+    } 
+}
+
+@media(max-width: 355px){
+    body{
+        font-size: 13px;
+    }
+    #policia{
+        margin-left: 5%;
+    }
+}
