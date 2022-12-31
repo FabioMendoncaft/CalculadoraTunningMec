@@ -5,26 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Calculadora de Tuning</title>
-    <link rel="icon" type="image/png" href="/imagens/png-transparent-computer-icons-tool-tools-miscellaneous-screwdriver-artwork-removebg-preview.png">
+    <link rel="icon" type="image/png"
+        href="/imagens/png-transparent-computer-icons-tool-tools-miscellaneous-screwdriver-artwork-removebg-preview.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
-        <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 
 <body class="text-light" style="background: #1b1c1f;">
     <nav class="navbar fixed-top navbar navbar-expand-lg bg-dark border-bottom border-secondary">
         <div class="container">
-            <div>Valor total: 
-                <input type="text" id="total" disabled="desabled" class="bg-light border-0 text-center w-25" style="border-radius: 4px;">
-                <button type="button" class="btn btn-outline-light" id="policia" data-bs-toggle="modal" data-bs-target="#parcPoli">Parceria Polícia</button>
+            <div>Valor total:
+                <input type="text" id="total" disabled="desabled" class="bg-light border-0 text-center w-25"
+                    style="border-radius: 4px;">
+                <button type="button" class="btn btn-outline-light" id="policia" data-bs-toggle="modal"
+                    data-bs-target="#parcPoli">Parceria Polícia</button>
             </div>
             <img src="/imagens/a_84f171a441d95198b9b382a952039d71.gif" id="logoSpace">
         </div>
     </nav>
-    <div id="blocoTuning" class="p-4 mt-5">
+    <div id="blocoTuning" class="p-4 mt-5 mb-5">
         <fieldset class="border p-3">
             <legend class="text-center">Tuning</legend>
             <hr>
@@ -93,50 +96,58 @@
             <legend class="text-center">Estética</legend>
             <hr>
             <form name="form">
-                <p>Pintura</p> 
-                <input onclick="somar()" type="checkbox" name="corPrimMet" value="8">  Cor primária (metálico) - 8.000.00R$ <br>
-                <input onclick="somar()" type="checkbox" name="perolado"   value="5">  Perolado                - 5.000.00R$ <br>
-                <input onclick="somar()" type="checkbox" name="cprPrim"    value="15"> Cor primária            - 15.000.00R$<br>
-                <input onclick="somar()" type="checkbox" name="corSecu"    value="5">  Cor secundária          - 5.000.00R$ <br>
+                <p>Pintura</p>
+                <input onclick="somar()" type="checkbox" name="corPrimMet" value="8"> Cor primária (metálico) -
+                8.000.00R$ <br>
+                <input onclick="somar()" type="checkbox" name="perolado" value="5"> Perolado - 5.000.00R$ <br>
+                <input onclick="somar()" type="checkbox" name="cprPrim" value="15"> Cor primária - 15.000.00R$<br>
+                <input onclick="somar()" type="checkbox" name="corSecu" value="5"> Cor secundária - 5.000.00R$ <br>
 
                 <hr>
 
                 <p>Acessórios</p>
-                <input onclick="somar()" type="checkbox" name="adsiv"  value="15"> Adesivos              - 15.000.00R$ <br>
-                <input onclick="somar()" type="checkbox" name="aerof"  value="8">  Aerofólio             - 8.000.00R$ <br>
-                <input onclick="somar()" type="checkbox" name="pcD"    value="8">  Para-Choque Dianteiro - 8.000.00R$ <br>
-                <input onclick="somar()" type="checkbox" name="pcT"    value="8">  Para-Choque Traseiro  - 8.000.00R$ <br>
-                <input onclick="somar()" type="checkbox" name="paraL"  value="8">  Para Lamas            - 8.000.00R$ <br>
-                <input onclick="somar()" type="checkbox" name="capo"   value="8">  Capô                  - 8.000.00R$ <br>
-                <input onclick="somar()" type="checkbox" name="grelha" value="8">  Grelha/Grade          - 8.000.00R$ <br>
-                <input onclick="somar()" type="checkbox" name="gaiola" value="8">  Gaiola                - 8.000.00R$ <br>
-                <input onclick="somar()" type="checkbox" name="escmnt" value="8">  Escapamento           - 8.000.00R$ <br>
-                <input onclick="somar()" type="checkbox" name="saias"  value="8">  Saias                 - 8.000.00R$ <br>
-                <input onclick="somar()" type="checkbox" name="teto"   value="8">  Teto                  - 8.000.00R$ <br>
-                <input onclick="somar()" type="checkbox" name="vidro"  value="8">  Vidro                 - 8.000.00R$ <br>
-                <input onclick="somar()" type="checkbox" name="placa"  value="5">  Placa                 - 5.000.00R$ <br>
-                <input onclick="somar()" type="checkbox" name="buzina" value="5">  Buzina                - 5.000.00R$ <br>
+                <input onclick="somar()" type="checkbox" name="adsiv" value="15"> Adesivos - 15.000.00R$ <br>
+                <input onclick="somar()" type="checkbox" name="aerof" value="8"> Aerofólio - 8.000.00R$ <br>
+                <input onclick="somar()" type="checkbox" name="pcD" value="8"> Para-Choque Dianteiro - 8.000.00R$
+                <br>
+                <input onclick="somar()" type="checkbox" name="pcT" value="8"> Para-Choque Traseiro - 8.000.00R$
+                <br>
+                <input onclick="somar()" type="checkbox" name="paraL" value="8"> Para Lamas - 8.000.00R$ <br>
+                <input onclick="somar()" type="checkbox" name="capo" value="8"> Capô - 8.000.00R$ <br>
+                <input onclick="somar()" type="checkbox" name="grelha" value="8"> Grelha/Grade - 8.000.00R$ <br>
+                <input onclick="somar()" type="checkbox" name="gaiola" value="8"> Gaiola - 8.000.00R$ <br>
+                <input onclick="somar()" type="checkbox" name="escmnt" value="8"> Escapamento - 8.000.00R$ <br>
+                <input onclick="somar()" type="checkbox" name="saias" value="8"> Saias - 8.000.00R$ <br>
+                <input onclick="somar()" type="checkbox" name="teto" value="8"> Teto - 8.000.00R$ <br>
+                <input onclick="somar()" type="checkbox" name="vidro" value="8"> Vidro - 8.000.00R$ <br>
+                <input onclick="somar()" type="checkbox" name="placa" value="5"> Placa - 5.000.00R$ <br>
+                <input onclick="somar()" type="checkbox" name="buzina" value="5"> Buzina - 5.000.00R$ <br>
                 <hr>
                 <p>Interior do veículo - 5000R$</p>
-                Quantidade: <input type="number" name="inter" class="w-25 border-0 text-center" placeholder="0" style="border-radius: 4px;"> <button type="button" onclick="somar(1)" class="btn btn-outline-light p-1 m-1">Calcular</button> <br>
-                Total: &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp <input type="text" id="totalInte" disabled="desabled" class="bg-light border-0 text-center w-25" style="border-radius: 4px;"> <button type="button" onclick="somar(2)" class="btn btn-outline-light p-1 m-1">Limpar</button>
+                Quantidade: <input type="number" name="inter" class="w-25 border-0 text-center" placeholder="0"
+                    style="border-radius: 4px;"> <button type="button" onclick="somar(1)"
+                    class="btn btn-outline-light p-1 m-1">Calcular</button> <br>
+                Total: &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp <input type="text" id="totalInte" disabled="desabled"
+                    class="bg-light border-0 text-center w-25" style="border-radius: 4px;"> <button type="button"
+                    onclick="somar(2)" class="btn btn-outline-light p-1 m-1">Limpar</button>
 
                 <hr>
 
                 <p>Rodas</p>
-                <input onclick="somar()" type="checkbox" name="impor"    value="30"> Importadas            - 30.000.00R$ <br>
-                <input onclick="somar()" type="checkbox" name="nacion"   value="20"> Nacionais             - 20.000.00R$ <br>
-                <input onclick="somar()" type="checkbox" name="pneuCust" value="5">  Pneu Custom           - 5.000.00R$  <br>
-                <input onclick="somar()" type="checkbox" name="corRoda"  value="8">  Cor da Roda           - 8.000.00R$  <br>
-                <input onclick="somar()" type="checkbox" name="fumaca"   value="5">  Fumaça                - 5.000.00R$  <br>
+                <input onclick="somar()" type="checkbox" name="impor" value="30"> Importadas - 30.000.00R$ <br>
+                <input onclick="somar()" type="checkbox" name="nacion" value="20"> Nacionais - 20.000.00R$ <br>
+                <input onclick="somar()" type="checkbox" name="pneuCust" value="5"> Pneu Custom - 5.000.00R$ <br>
+                <input onclick="somar()" type="checkbox" name="corRoda" value="8"> Cor da Roda - 8.000.00R$ <br>
+                <input onclick="somar()" type="checkbox" name="fumaca" value="5"> Fumaça - 5.000.00R$ <br>
 
                 <hr>
 
                 <p>Luzes</p>
-                <input onclick="somar()" type="checkbox" name="xenon"  value="20"> Xenon + cor  - 20.000.00R$ <br>
-                <input onclick="somar()" type="checkbox" name="neon"   value="20"> Neon + cor   - 20.000.00R$ <br>
-                <input onclick="somar()" type="checkbox" name="apnCorX" value="5"> Apenas Cor Xenon   - 5.000.00R$ <br>
-                <input onclick="somar()" type="checkbox" name="apnCorN" value="5"> Apenas Cor Neon    - 5.000.00R$ <br>
+                <input onclick="somar()" type="checkbox" name="xenon" value="20"> Xenon + cor - 20.000.00R$ <br>
+                <input onclick="somar()" type="checkbox" name="neon" value="20"> Neon + cor - 20.000.00R$ <br>
+                <input onclick="somar()" type="checkbox" name="apnCorX" value="5"> Apenas Cor Xenon - 5.000.00R$
+                <br>
+                <input onclick="somar()" type="checkbox" name="apnCorN" value="5"> Apenas Cor Neon - 5.000.00R$ <br>
             </form>
         </fieldset>
 
@@ -144,35 +155,52 @@
             <legend class="text-center">Helicóptero</legend>
             <hr>
             <form name="form">
-                <input onclick="somar()" type="checkbox" name="heliCorP"  value="30">  Cor primária   - 30.000.00R$  <br>
-                <input onclick="somar()" type="checkbox" name="heliCorS"  value="20">  Cor secundária - 20.000.00R$  <br>
-                <input onclick="somar()" type="checkbox" name="heliTurbo" value="80">  Turbo          - 80.000.00R$  <br>
-                <input onclick="somar()" type="checkbox" name="heliMotor" value="120"> Motor          - 120.000.00R$ <br>
-                <input onclick="somar()" type="checkbox" name="heliBlind" value="200"> Blindagem      - 200.000.00R$ <br>
-            </form> 
+                <input onclick="somar()" type="checkbox" name="heliCorP" value="30"> Cor primária - 30.000.00R$ <br>
+                <input onclick="somar()" type="checkbox" name="heliCorS" value="20"> Cor secundária - 20.000.00R$
+                <br>
+                <input onclick="somar()" type="checkbox" name="heliTurbo" value="80"> Turbo - 80.000.00R$ <br>
+                <input onclick="somar()" type="checkbox" name="heliMotor" value="120"> Motor - 120.000.00R$ <br>
+                <input onclick="somar()" type="checkbox" name="heliBlind" value="200"> Blindagem - 200.000.00R$ <br>
+            </form>
         </fieldset>
     </div>
-  
+
     <div class="modal" id="parcPoli" tabindex="-1">
         <div class="modal-dialog">
             <div class="modal-content bg-dark">
                 <div class="modal-header">
                     <h5 class="modal-title">Valor do Blip + 20%</h5>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
                 </div>
-                <form class="form"> 
+                <form class="form">
                     <div class="modal-body">
-                        Valor do Blip: <input type="number" name="valorPoli" class="w-25 border-0 text-center" placeholder="0" style="border-radius: 4px;">
+                        Valor do Blip: <input type="number" name="valorPoli" class="w-25 border-0 text-center"
+                            placeholder="0" style="border-radius: 4px;">
                         <hr>
-                        Resultado: <input type="text" id="totalPoli" disabled="desabled" class="bg-light border-0 text-center w-25" style="border-radius: 4px; margin-left: 4.2%;"> 
-                    </div>   
-                </form>    
+                        Resultado: <input type="text" id="totalPoli" disabled="desabled"
+                            class="bg-light border-0 text-center w-25" style="border-radius: 4px; margin-left: 4.2%;">
+                    </div>
+                </form>
                 <div class="modal-footer">
                     <button type="button" onclick="parceriaPolicia()" class="btn btn-outline-light">Calcular</button>
                 </div>
             </div>
         </div>
-    </div>    
+    </div>
+
+    <!-- NavBar para Mobile(Barra inferior) -->
+    <nav class="fixed-bottom navbar-light bg-dark" id="barraInfer">
+        <div class="text-center">
+            <p>&copy Copyright 2022 - by Fabio Mendonça</p>
+            <div id="git">
+                <p id="gitHub"><a id="rs" href="https://github.com/FabioMendoncaft" target="_blanck"><img
+                            src="/imagens/gitHub.png" id="linke"></a>&nbsp <a id="rs" href="https://www.linkedin.com/in/fabio-mendonça-530707180/" target="_blanck"><img
+                                src="/imagens/174857.png" id="linke"></a></p>
+            </div>
+        </div>
+    </nav>
+    <!-- (FIM)NavBar para Mobile(Barra inferior) -->
 </body>
 
 <script src="javaScript/calculadora.js"></script>

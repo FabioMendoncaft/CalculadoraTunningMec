@@ -19,6 +19,22 @@
     margin-left: 10%;
 }
 
+#barraInfer{
+    height: 50px;
+}
+
+#git{
+    margin-top: -18px;
+}
+
+#rs{
+    color: white;
+}
+
+#linke{
+    height: 20px;
+}
+
 @media(max-width: 1190px){
     #blocoTuning{
         margin-left: 8%;
