@@ -260,8 +260,9 @@ function parceriaPolicia(){
     var totalPoli = document.getElementById("totalPoli");
 
     if(valorPoli[0].value){
-        var valorAux    = valorPoli[0].value / 5;
-        totalPoli.value = parseInt(valorPoli[0].value) + valorAux; 
+        var valorAux    = valorPoli[0].value / 10;
+        var valorAux2   = valorAux / 2;
+        totalPoli.value = parseInt(valorPoli[0].value) + valorAux + valorAux2; 
     }
 
 }
